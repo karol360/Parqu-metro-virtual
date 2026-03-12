@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,25 +8,29 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
+
 <body>
     <main>
-        <div class="quadrado-azul">
-            <div>
+        <div class="principal">
+            <div class="coluna-superior">
                 <h1>🅿️ Parquímetro Virtual</h1>
                 <p>Insira o Valor em Real(R$) para calcular seu tempo de permanencia.</p>
             </div>
-            <div>
-                <h3><strong>Tabela de preços</strong></h3>
-                <p><strong>R$ 1,00 - 30 min</strong></p>
-                <p><strong>R$ 1,75 - 60 min</strong></p>
-                <p><strong>R$ 3,00 - 120 min</strong></p>
-            </div>
-            <div>
-                <p>Digite o valor(R$):</p>
-                <input type="number" id="caixaValor" placeholder="Ex: 3,00">
-                <input type="button" value="Calcular">
+            <div class="principal-secundaria">
+                <div class="coluna-esquerda">
+                    <h3><strong>Tabela de preços</strong></h3>
+                    <p><strong>R$ 1,00 - 30 min</strong></p>
+                    <p><strong>R$ 1,75 - 60 min</strong></p>
+                    <p><strong>R$ 3,00 - 120 min</strong></p>
+                </div>
+                <div class="coluna-direita">
+                    <p>Digite o valor(R$):</p>
+                    <input type="number" id="caixaValor" placeholder="Ex: 3,00">
+                    <p><button>Calcular</button></p>
+                </div>
             </div>
         </div>
     </main>
 </body>
+
 </html>
